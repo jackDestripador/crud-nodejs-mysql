@@ -19,8 +19,8 @@ app.use(morgan('dev'));
 app.use(myConnection(mysql, {
   host: 'localhost',
   user: 'root',
-  password: 'contraseña',
-  port: 3306,
+  password: '123456jesus',
+  port: 3307,
   database: 'crudnodejsmysql'
 }, 'single'));
 app.use(express.urlencoded({extended: false}));
